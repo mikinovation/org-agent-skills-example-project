@@ -3,5 +3,5 @@
 apm_modules/
 
 # Personal skills (user-specific, not tracked)
-.claude/skills/user/*
-!.claude/skills/user/.keep
+# user: プレフィックスのスキルはgitignore対象
+.claude/skills/user:*/
