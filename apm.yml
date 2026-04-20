@@ -1,0 +1,9 @@
+name: org-agent-skills-example-project
+version: 1.0.0
+description: APM project for org-agent-skills-example-project
+author: mikinovation
+dependencies:
+  apm:
+  - mikinovation/org-agent-skills#skill-rules-repo-management
+  mcp: []
+scripts: {}

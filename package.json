@@ -1,0 +1,7 @@
+{
+  "name": "org-agent-skills-example-project",
+  "version": "1.0.0",
+  "scripts": {
+    "prepare": "bash scripts/apm-install.sh"
+  }
+}

@@ -1,0 +1,14 @@
+lockfile_version: '1'
+generated_at: '2026-04-20T07:37:47.878278+00:00'
+apm_version: 0.8.12
+dependencies:
+- repo_url: mikinovation/org-agent-skills
+  host: github.com
+  resolved_commit: e6487778ec2e1b63d9484c1e43134fccc1c0672a
+  resolved_ref: skill-rules-repo-management
+  package_type: apm_package
+  deployed_files:
+  - .claude/skills/example-commit
+  content_hash: sha256:a5abcc1c05b22f1ac7d8276559a39c78fd064493222f8d5c1d3e50a1d98fc3ce
+local_deployed_files:
+- .claude/skills/example-project-review
