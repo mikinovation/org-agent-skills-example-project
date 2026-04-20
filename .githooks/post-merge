@@ -1,6 +1,0 @@
-#!/bin/sh
-# apm.yml または apm.lock.yaml が変更された場合にapm installを実行する
-if git diff-tree --name-only -r ORIG_HEAD HEAD 2>/dev/null | grep -qE '^(apm\.yml|apm\.lock\.yaml)$'; then
-  echo "[apm] apm.yml changed, running apm install..."
-  apm install
-fi
