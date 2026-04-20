@@ -1,3 +1,6 @@
 
 # APM dependencies
 apm_modules/
+
+# Personal skills (user-specific, not tracked)
+.claude/skills/user/
